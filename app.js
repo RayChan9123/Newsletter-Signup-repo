@@ -12,7 +12,7 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 //send html file
 app.get("/", function(req, res) {
-  res.sendFile(__dirname + "/signup.html");
+  res.sendFile(__dirname + "/index.html");
 });
 //configure api
 client.setConfig({
