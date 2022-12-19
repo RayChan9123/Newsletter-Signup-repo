@@ -16,7 +16,7 @@ app.get("/", function(req, res) {
 });
 //configure api
 client.setConfig({
-  apiKey: "77b49f52a08dc808262e08f21239004d-us8",
+  apiKey: "64bf22fe04fcc063faeb94c96e4d26c5-us8",
   server: "us8",
 });
 
@@ -62,8 +62,7 @@ app.listen(process.env.PORT || 3000, function(req, res) {
 
 
 //apiKey
-//77b49f52a08dc808262e08f21239004d-us8
-//4c5268e8a3b6dd00c90426b03a87ef1d-us8
+
 //audienceID/listID
 //4e5cb82fad
 
